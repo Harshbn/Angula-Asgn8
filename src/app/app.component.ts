@@ -6,15 +6,17 @@ import { ChildComponent } from './child/child.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, ChildComponent],
+  imports: [CommonModule, RouterOutlet,ChildComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Assgn8';
+  title = 'Assi-8';
+
   public str: string = "Data from parent to child";
 
   public PMsg :string = "Hello from parent component";
 
   public Pbowl : any ;
+  
 }
